@@ -1,8 +1,11 @@
-namespace Asp.NetCore_Inventory_Order_Management_System.Models;
+using System;
 
-public class ErrorViewModel
+namespace Asp.NetCore_Inventory_Order_Management_System.Models
 {
-    public string? RequestId { get; set; }
+    public class ErrorViewModel
+    {
+        public string RequestId { get; set; }
 
-    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    }
 }
