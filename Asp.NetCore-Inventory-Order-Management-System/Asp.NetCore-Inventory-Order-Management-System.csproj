@@ -2,12 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Asp.NetCore_Inventory_Order_Management_System</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\adminlte\components\bootstrap-datepicker\.github\ISSUE_TEMPLATE.md" />
+    <None Include="wwwroot\adminlte\components\bootstrap-datepicker\.github\PULL_REQUEST_TEMPLATE.md" />
+    <None Include="wwwroot\adminlte\components\ckeditor\.github\ISSUE_TEMPLATE" />
+    <None Include="wwwroot\adminlte\components\select2\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\adminlte\components\select2\.github\ISSUE_TEMPLATE.md" />
+    <None Include="wwwroot\adminlte\components\select2\.github\PULL_REQUEST_TEMPLATE.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.11" />
     
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0">
       <PrivateAssets>all</PrivateAssets>
