@@ -246,8 +246,8 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Services
                 {
                     //add to user profile
                     UserProfile profile = new UserProfile();
-                    profile.FirstName = "Super";
-                    profile.LastName = "Admin";
+                    profile.FirstName = "likali";
+                    profile.LastName = "mukaiba";
                     profile.Email = superAdmin.Email;
                     profile.ApplicationUserId = superAdmin.Id;
                     await _context.UserProfile.AddAsync(profile);
