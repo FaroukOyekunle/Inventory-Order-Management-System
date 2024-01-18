@@ -5,7 +5,7 @@ Asp.Net Core Mvc implementation of inventory order management system. warehouse,
 # Features
 
 - Asp.Net Core Mvc
-- EF / Entity Framework
+- EF Core / Entity Framework
 - Code First
 - C#
 - SendGrid
