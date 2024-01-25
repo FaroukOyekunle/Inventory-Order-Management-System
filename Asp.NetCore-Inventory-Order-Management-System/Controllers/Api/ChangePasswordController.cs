@@ -40,7 +40,8 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             int Count = Items.Count();
             return Ok(new { Items, Count });
         }
-        
+
+        //POST: api/Update
         [HttpPost("[action]")]
         public async Task<IActionResult> Update([FromBody]CrudViewModel<ChangePasswordViewModel> payload)
         {
