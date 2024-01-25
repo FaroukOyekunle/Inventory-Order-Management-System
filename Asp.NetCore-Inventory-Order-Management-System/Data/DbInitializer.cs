@@ -20,7 +20,6 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Data
 
             //init app data
             await functional.InitAppData();
-
         }
     }
 }
