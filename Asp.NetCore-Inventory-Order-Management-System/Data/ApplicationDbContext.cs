@@ -1,6 +1,6 @@
-﻿using Asp.NetCore_Inventory_Order_Management_System.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Asp.NetCore_Inventory_Order_Management_System.Models;
 
 namespace Asp.NetCore_Inventory_Order_Management_System.Data
 {
