@@ -48,6 +48,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(currency);
         }
 
+        // POST: api/Currency
         [HttpPost("[action]")]
         public IActionResult Insert([FromBody]CrudViewModel<Currency> payload)
         {
