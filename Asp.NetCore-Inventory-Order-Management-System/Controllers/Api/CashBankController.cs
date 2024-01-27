@@ -43,6 +43,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(cashBank);
         }
 
+        //POST: api/CashBank
         [HttpPost("[action]")]
         public IActionResult Update([FromBody]CrudViewModel<CashBank> payload)
         {
