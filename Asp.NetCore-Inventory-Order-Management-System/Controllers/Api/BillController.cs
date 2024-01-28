@@ -96,7 +96,6 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             _context.Bill.Remove(bill);
             _context.SaveChanges();
             return Ok(bill);
-
         }
     }
 }
