@@ -78,7 +78,6 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             _applicationContext.Currency.Remove(currency);
             _applicationContext.SaveChanges();
             return Ok(currency);
-
         }
     }
 }
