@@ -33,7 +33,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(new { Items, Count });
         }
 
-        // GET: api/Branch
+        // GET: api/Currency
         [HttpGet("[action]/{id}")]
         public async Task<IActionResult> GetByBranchId([FromRoute]int id)
         {
@@ -58,6 +58,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(currency);
         }
 
+        //POST: api/Currency
         [HttpPost("[action]")]
         public IActionResult Update([FromBody]CrudViewModel<Currency> payload)
         {
@@ -67,6 +68,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(currency);
         }
 
+        //POST: api/Currency
         [HttpPost("[action]")]
         public IActionResult Remove([FromBody]CrudViewModel<Currency> payload)
         {
