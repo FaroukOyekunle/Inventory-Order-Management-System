@@ -54,6 +54,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(branch);
         }
 
+        // POST: api/Branch
         [HttpPost("[action]")]
         public IActionResult Remove([FromBody]CrudViewModel<Branch> payload)
         {
