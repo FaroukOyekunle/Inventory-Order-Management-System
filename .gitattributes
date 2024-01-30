@@ -45,6 +45,7 @@ coderush/wwwroot/* linguist-vendored
 #*.jpg   binary
 #*.png   binary
 #*.gif   binary
+#*.jpeg  binary
 
 ###############################################################################
 # diff behavior for common document formats
