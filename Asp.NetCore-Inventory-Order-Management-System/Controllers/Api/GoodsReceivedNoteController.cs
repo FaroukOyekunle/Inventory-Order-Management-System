@@ -76,6 +76,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(goodsReceivedNote);
         }
 
+        // POST: api/GoodsReceivedNote
         [HttpPost("[action]")]
         public IActionResult Update([FromBody]CrudViewModel<GoodsReceivedNote> payload)
         {
@@ -85,6 +86,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(goodsReceivedNote);
         }
 
+        // POST: api/GoodsReceivedNote
         [HttpPost("[action]")]
         public IActionResult Remove([FromBody]CrudViewModel<GoodsReceivedNote> payload)
         {
