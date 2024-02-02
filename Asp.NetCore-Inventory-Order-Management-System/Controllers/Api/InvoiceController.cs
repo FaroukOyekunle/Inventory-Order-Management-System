@@ -37,6 +37,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(new { Items, Count });
         }
 
+        // GET: api/Invoice
         [HttpGet("[action]")]
         public async Task<IActionResult> GetNotPaidYet()
         {
