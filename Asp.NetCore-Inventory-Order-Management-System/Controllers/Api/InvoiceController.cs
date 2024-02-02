@@ -65,6 +65,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(invoices);
         }
 
+        // POST: api/Invoice
         [HttpPost("[action]")]
         public IActionResult Insert([FromBody]CrudViewModel<Invoice> payload)
         {
