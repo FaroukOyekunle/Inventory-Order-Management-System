@@ -50,4 +50,4 @@ Asp.Net Core Mvc implementation of inventory order management system. warehouse,
   - User
   - Change Password
   - Role
-  - Change Role
+  - Change Roles
