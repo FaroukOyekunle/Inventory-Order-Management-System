@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authorization;
 using Asp.NetCore_Inventory_Order_Management_System.Data;
 using Asp.NetCore_Inventory_Order_Management_System.Models;
 using Asp.NetCore_Inventory_Order_Management_System.Models.SyncfusionViewModels;
