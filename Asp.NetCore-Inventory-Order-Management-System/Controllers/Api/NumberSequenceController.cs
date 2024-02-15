@@ -73,7 +73,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             }
 
             var numberSequence = await _applicationContext.NumberSequence.SingleOrDefaultAsync(m => m.NumberSequenceId == id);
-            if (numberSequence == null)
+            if (numberSequence is null)
             {
                 return NotFound();
             }
