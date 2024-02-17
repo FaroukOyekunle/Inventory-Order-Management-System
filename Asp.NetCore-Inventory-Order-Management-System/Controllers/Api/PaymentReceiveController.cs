@@ -48,6 +48,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(paymentReceive);
         }
 
+        // POST: api/PaymentReceive
         [HttpPost("[action]")]
         public IActionResult Update([FromBody]CrudViewModel<PaymentReceive> payload)
         {
