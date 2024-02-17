@@ -58,6 +58,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(paymentReceive);
         }
 
+        // DELETE: api/PaymentReceive
         [HttpPost("[action]")]
         public IActionResult Remove([FromBody]CrudViewModel<PaymentReceive> payload)
         {
