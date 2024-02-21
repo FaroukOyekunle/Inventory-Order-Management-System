@@ -42,7 +42,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             _applicationContext.SaveChanges();
             return Ok(paymentType);
         }
-
+        //POST: api/PaymentType
         [HttpPost("[action]")]
         public IActionResult Update([FromBody]CrudViewModel<PaymentType> payload)
         {
