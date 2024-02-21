@@ -33,7 +33,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(new { Items, Count });
         }
 
-
+        //POST: api/PaymentType
         [HttpPost("[action]")]
         public IActionResult Insert([FromBody]CrudViewModel<PaymentType> payload)
         {
