@@ -5,10 +5,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 using Asp.NetCore_Inventory_Order_Management_System.Data;
 using Asp.NetCore_Inventory_Order_Management_System.Models;
 using Asp.NetCore_Inventory_Order_Management_System.Models.SyncfusionViewModels;
-using Microsoft.AspNetCore.Authorization;
 
 namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
 {
