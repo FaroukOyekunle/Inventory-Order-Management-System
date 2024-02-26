@@ -49,6 +49,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(paymentVoucher);
         }
 
+        //POST: api/PaymentVoucher
         [HttpPost("[action]")]
         public IActionResult Update([FromBody]CrudViewModel<PaymentVoucher> payload)
         {
