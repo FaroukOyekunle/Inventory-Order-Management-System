@@ -38,7 +38,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
         }
 
 
-
+        //POST: api/PaymentVoucher
         [HttpPost("[action]")]
         public IActionResult Insert([FromBody]CrudViewModel<PaymentVoucher> payload)
         {
