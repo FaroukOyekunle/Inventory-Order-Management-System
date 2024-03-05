@@ -23,6 +23,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Models
         
         [Display(Name = "Purchase Type")]
         public int PurchaseTypeId { get; set; }
+        
         public string Remarks { get; set; }
         public double Amount { get; set; }
         public double SubTotal { get; set; }
