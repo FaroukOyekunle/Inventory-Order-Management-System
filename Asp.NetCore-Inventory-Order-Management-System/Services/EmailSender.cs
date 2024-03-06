@@ -1,8 +1,8 @@
 using System;
-﻿using Microsoft.Extensions.Options;
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+﻿using Microsoft.Extensions.Options;
 
 namespace Asp.NetCore_Inventory_Order_Management_System.Services
 {
