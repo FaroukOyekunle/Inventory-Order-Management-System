@@ -33,6 +33,5 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Services
             bool smtpSSL);
 
         Task<string> UploadFile(List<IFormFile> files, IWebHostEnvironment env, string uploadFolder);
-
     }
 }
