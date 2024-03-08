@@ -2,8 +2,8 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-﻿using Microsoft.AspNetCore.Hosting;
 using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Hosting;
 
 namespace Asp.NetCore_Inventory_Order_Management_System.Services
 {
