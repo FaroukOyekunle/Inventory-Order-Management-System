@@ -43,6 +43,7 @@ namespace Asp.NetCore_Inventory_Order_Management_System.Controllers.Api
             return Ok(product);
         }
 
+        // POST: api/product
         [HttpPost("[action]")]
         public IActionResult Update([FromBody]CrudViewModel<Product> payload)
         {
