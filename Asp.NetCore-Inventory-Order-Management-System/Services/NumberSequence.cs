@@ -1,7 +1,7 @@
+using System.Linq;
 ﻿using Asp.NetCore_Inventory_Order_Management_System.Data;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
