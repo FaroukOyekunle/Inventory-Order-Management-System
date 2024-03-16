@@ -3,9 +3,9 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity;
 ﻿using Asp.NetCore_Inventory_Order_Management_System.Models;
 using Asp.NetCore_Inventory_Order_Management_System.Pages;
-using Microsoft.AspNetCore.Identity;
 
 namespace Asp.NetCore_Inventory_Order_Management_System.Services
 {
