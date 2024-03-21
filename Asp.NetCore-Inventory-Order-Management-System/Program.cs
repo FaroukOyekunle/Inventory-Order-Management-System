@@ -3,10 +3,10 @@ using Microsoft.AspNetCore;
 using System.Configuration;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Asp.NetCore_Inventory_Order_Management_System.Data;
 using Asp.NetCore_Inventory_Order_Management_System.Models;
 using Asp.NetCore_Inventory_Order_Management_System.Services;
-using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
