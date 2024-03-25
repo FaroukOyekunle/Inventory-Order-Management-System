@@ -55,7 +55,7 @@ builder.Services.ConfigureApplicationCookie(options =>
 /*    options.Cookie.Expiration = TimeSpan.FromDays(identityDefaultOptions.CookieExpiration);*/
     options.ExpireTimeSpan = TimeSpan.FromDays(50);
     options.LoginPath = identityDefaultOptions.LoginPath; // If the LoginPath is not set here, ASP.NET Core will set the default to /Account/Login
-    options.LogoutPath = identityDefaultOptions.LogoutPath; // If the LogoutPath is not set here, ASP.NET Core will default to /Account/Logout
+    options.LogoutPath = identityDefaultOptions.LogoutPath; // If the LogoutPath is not set here, ASP.NET Core will set the default to /Account/Logout
     options.AccessDeniedPath = identityDefaultOptions.AccessDeniedPath; // If the AccessDeniedPath is not set here, ASP.NET Core will default to /Account/AccessDenied
     options.SlidingExpiration = identityDefaultOptions.SlidingExpiration;
 });
